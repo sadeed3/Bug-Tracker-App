@@ -1,0 +1,35 @@
+/* style.css - Bug Tracker Custom Styles */
+
+body {
+    padding: 2rem;
+    background-color: #f8f9fa;
+    font-family: "Segoe UI", sans-serif;
+}
+
+h1, h2 {
+    font-weight: 600;
+    color: #343a40;
+}
+
+.bug-table {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+.bug-row-high {
+    background-color: #f8d7da; /* light red */
+}
+
+.bug-row-medium {
+    background-color: #fff3cd; /* light yellow */
+}
+
+.bug-row-low {
+    background-color: #d4edda; /* light green */
+}
+
+.btn + .btn {
+    margin-left: 5px;
+}
