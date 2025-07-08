@@ -100,7 +100,3 @@ bug-tracker/
 - Input validation and UI response works
 
 ---
-
-## 📜 License
-
-MIT License
